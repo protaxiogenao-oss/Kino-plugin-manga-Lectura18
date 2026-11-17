@@ -1,0 +1,38 @@
+{
+  "id": "lectura18",
+  "name": "Lectura +18",
+  "author": "Hotaru Yume",
+  "creator": "hotaruyume",
+  "version": "2.4.3",
+  "apiVersion": 14,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "hosts": [
+    "reycomix.com",
+    "www.reycomix.com",
+    "melapelacomics.com",
+    "www.melapelacomics.com",
+    "comicsparaadultos.com",
+    "www.comicsparaadultos.com",
+    "tangas3d.com",
+    "www.tangas3d.com"
+  ],
+  "capabilities": [
+    "screen",
+    "shared"
+  ],
+  "categories": [
+    "adult"
+  ],
+  "screen": {
+    "label": "Lectura +18",
+    "labelEn": "Lectura +18",
+    "menuOpens": "screen",
+    "opensFrom": [
+      "menu",
+      "settings"
+    ],
+    "icon": "menu_book",
+    "adult": true
+  }
+}
